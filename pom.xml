@@ -110,8 +110,8 @@
     </build>
     
     <scm>
-        <developerConnection>scm:git:git@github.com:Adobe-Consulting-Services/com.adobe.acs.bundles.sling-models.git</developerConnection>
-      <tag>HEAD</tag>
+        <developerConnection>scm:git:git@github.com:github.com/cantolick/com.adobe.acs.bundles.sling-models.git</developerConnection>
+      <tag>com.adobe.acs.bundles.sling-models-1.1.0</tag>
   </scm>
   
     <repositories>
@@ -133,15 +133,14 @@
   
     <distributionManagement>
         <repository>
-            <id>bintray</id>
-            <name>acs-releases-com.adobe.acs.bundles.sling-models</name>
-            <url>https://api.bintray.com/maven/acs/releases/com.adobe.acs.bundles.sling-models</url>
+            <id>ltf-releases</id>
+            <name>Internal Releases</name>
+            <url>https://nexus.ltfinc.net/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>${snapshotRepository-Id}</id>
-            <name>${snapshotRepository-Name}</name>
-            <url>${snapshotRepository-URL}</url>
-            <uniqueVersion>false</uniqueVersion>
+            <id>ltf-snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>https://nexus.ltfinc.net/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
         
